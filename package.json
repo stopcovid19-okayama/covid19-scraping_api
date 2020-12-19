@@ -2,13 +2,14 @@
   "private": true,
   "name": "covid19_okayama_scraping_api",
   "dependencies": {
-    "dayjs": "^1.9.7",
     "axios": "^0.21.0",
-    "expresss": "^0.0.0",
+    "dayjs": "^1.9.7",
     "env-var": "^7.0.0",
     "yup": "^0.32.8"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@vercel/node": "^1.8.5"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
