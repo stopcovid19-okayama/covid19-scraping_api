@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "name": "covid19_okayama_scraping_api",
+  "dependencies": {
+    "dayjs": "^1.9.7",
+    "axios": "^0.21.0",
+    "expresss": "^0.0.0",
+    "env-var": "^7.0.0",
+    "yup": "^0.32.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stopcovid19-okayama/covid19-scraping_api.git"
+  }
+}
