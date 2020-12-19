@@ -43,7 +43,7 @@ export default async (request: NowRequest, response: NowResponse) => {
 
     const releaseDate = dayjs(data.リリース日);
 
-    if (releaseDate.isBetween(query.from ?? firstDataDate, query.till)) {
+    if (releaseDate.isBetween(query.from || firstDataDate, query.till)) {
       if (result.length === query.limit) {
         moreResultStatus =
           ResponseBuilder.MoreResultStatus.MORE_RESULTS_AFTER_LIMIT;

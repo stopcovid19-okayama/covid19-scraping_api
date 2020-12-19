@@ -14,7 +14,7 @@ export class ScrapingData {
   }
 
   get baseURL() {
-    return this.overrideBaseUrl ?? ScrapingData.globalBaseURL;
+    return this.overrideBaseUrl || ScrapingData.globalBaseURL;
   }
 
   async fetch<Result = { [k: string]: string }>(fileName: string) {
