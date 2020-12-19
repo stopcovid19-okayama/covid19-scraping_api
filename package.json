@@ -13,6 +13,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "engines": {
+    "node": "14.15.1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/stopcovid19-okayama/covid19-scraping_api.git"
