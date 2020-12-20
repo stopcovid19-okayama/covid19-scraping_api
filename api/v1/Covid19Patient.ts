@@ -56,7 +56,6 @@ export default async (request: NowRequest, response: NowResponse) => {
     }
   }
 
-  result.reverse();
   const resData = new ResponseBuilder(
     result,
     dayjs(scrapingData.data[scrapingData.data.length - 1].リリース日),
