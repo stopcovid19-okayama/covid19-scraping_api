@@ -38,6 +38,8 @@ export default async (request: NowRequest, response: NowResponse) => {
   let moreResultStatus = ResponseBuilder.MoreResultStatus.NO_MORE_RESULTS;
   let endCursor = 0;
 
+  scrapingData.data.reverse()
+
   for (let i = query.cursor + 1; i < scrapingData.data.length; i++) {
     const data = scrapingData.data[i];
 
