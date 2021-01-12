@@ -60,7 +60,7 @@ export default async (request: NowRequest, response: NowResponse) => {
 
   const resData = new ResponseBuilder(
     result,
-    dayjs(scrapingData.data[scrapingData.data.length - 1].リリース日),
+    dayjs(scrapingData.data[0].リリース日),
     1,
     moreResultStatus,
     String(endCursor)
